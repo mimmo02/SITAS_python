@@ -1,0 +1,31 @@
+Ablauf: 2023-10-03 13:25:20
+Test und Ausgangszustand anfahren
+Durchlauf 1
+-----------------------------------------------------------------------
+Schritt 1: Obere Lampen ein, linker Tank halb füllen
+-----Tank links halb voll, Tank rechts leer-----
+Schritt 2: Pumpe aus, Ventile schliessen und 9 Sekunden warten
+Schritt 3: Untere Lampen ein, linken Tank leeren, rechten Tank halb füllen
+-----Tank rechts halb voll, Tank links leer-----
+Schritt 4: Alle Lampen aus und 9 Sekunden oberen Tank füllen
+Schritt 5: Obere Lampen ein und linken Tank ganz füllen
+-----Tank links voll, Tank rechts halb voll-----
+Schritt 6: Alle Lampen ein, Ventile und Pumpen aus, 6 Sekunden lang warten
+Schritt 7: Obere Lampen aus und alle oberen Tanks leeren
+-----Alle oberen Tanks leer-----
+Durchlauf 2
+-----------------------------------------------------------------------
+Schritt 1: Obere Lampen ein, linker Tank halb füllen
+-----Tank links halb voll, Tank rechts leer-----
+Schritt 2: Pumpe aus, Ventile schliessen und 9 Sekunden warten
+Schritt 3: Untere Lampen ein, linken Tank leeren, rechten Tank halb füllen
+-----Tank rechts halb voll, Tank links leer-----
+Schritt 4: Alle Lampen aus und 9 Sekunden oberen Tank füllen
+Schritt 5: Obere Lampen ein und linken Tank ganz füllen
+-----Haupttank leer-----
+-----Tank links voll, Tank rechts halb voll-----
+Schritt 6: Alle Lampen ein, Ventile und Pumpen aus, 6 Sekunden lang warten
+Schritt 7: Obere Lampen aus und alle oberen Tanks leeren
+-----Alle oberen Tanks leer-----
+Endzustand: Alle Ventile öffnen, alle Lampen aus, Pumpe aus
+
