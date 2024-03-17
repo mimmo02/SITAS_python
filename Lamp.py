@@ -19,7 +19,7 @@ class Lamp(t.TankComponent):
         self.__position = position
         
     def setState(self,state):
-        super().setState(self,state)
+        super().setState(state)
         super().getProxy().forward(self,state)
         
         

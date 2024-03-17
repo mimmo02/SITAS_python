@@ -13,6 +13,6 @@ class Pump(t.TankComponent):
         super().__init__(proxy)
         
     def setState(self,state):
-        super().setState(self,state)
+        super().setState(state)
         super().getProxy().forward(self,state)
     
