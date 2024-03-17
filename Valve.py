@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 14 14:43:02 2024
+Created on Sun Mar 17 16:07:36 2024
 
 @author: Aquil
 """
 
 from Components import TankComponent as t
 
-class Lamp(t.TankComponent):
+class Valve(t.TankComponent):
+    
     def __init__(self,position,proxy):
         super().__init__(proxy)
         self.__position = position
@@ -22,5 +23,3 @@ class Lamp(t.TankComponent):
         super().setState(self,state)
         super().getProxy().forward(self,state)
         
-        
-    

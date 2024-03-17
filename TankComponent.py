@@ -6,7 +6,7 @@ Created on Thu Mar 14 14:37:29 2024
 """
 
 class TankComponent:
-    def __init__(self,proxy,):
+    def __init__(self,proxy):
         self.__state = False
         self.__proxy = proxy
         

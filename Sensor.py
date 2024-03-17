@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 14 14:43:02 2024
+Created on Sun Mar 17 16:11:52 2024
 
 @author: Aquil
 """
 
 from Components import TankComponent as t
 
-class Lamp(t.TankComponent):
-    def __init__(self,position,proxy):
-        super().__init__(proxy)
+class Sensor(t.TankComponent):
+    
+    def __init__(self,proxy,position):
+        super().__int__(proxy)
         self.__position = position
         
     def getPosition(self):
@@ -18,9 +19,6 @@ class Lamp(t.TankComponent):
     def setPosition(self,position):
         self.__position = position
         
-    def setState(self,state):
-        super().setState(self,state)
-        super().getProxy().forward(self,state)
         
-        
-    
+    def getState(self):
+        return super().getState()
