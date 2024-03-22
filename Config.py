@@ -6,7 +6,7 @@
 #set filename for logger
 import datetime
 
-logFileName="C:\Temp\output.txt"
+logFileName="output.txt"
 with open(logFileName, 'w') as file:
      file.write("LogFile: " + str(datetime.datetime.now()) + "\n")  
      

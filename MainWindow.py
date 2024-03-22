@@ -33,7 +33,7 @@ mainControl = mc.MainControl()
 
 #init some busines classes
 tankSystemProxy = t.TankSystemProxy()            
-components = i.Initialization(tankSystemProxy)    
+components = i.Initialization(tankSystemProxy)  
 
 mainControl.setTanksystemProxy(tankSystemProxy)    
 mainControl.setComponents(components)        
